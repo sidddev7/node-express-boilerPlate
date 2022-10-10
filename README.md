@@ -1,6 +1,6 @@
 # gift-wrapping-be
 
-Server code using Node.js created by Umesh
+Server code using Node.js
 
 # Steps
 
