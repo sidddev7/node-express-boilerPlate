@@ -6,7 +6,7 @@ Server code using Node.js
 
 - Clone the repo and run npm install 
 - npm run start
-
+- good to go,and add the mongodb database credentials in the env file
 #Authentication endpoints: -
 
 1. /users/register (method: post, register new admin)
