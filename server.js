@@ -19,6 +19,7 @@ app.use(cors());
 
 const PORT = process.env.PORT || 3500;
 //connnect to mongo
+// Add environment related db connections here
 const db = dbconfig.mongoURI;
 mongoose
   .connect(db)
