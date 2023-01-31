@@ -2,7 +2,7 @@
 
 # Node, Express boilerPlate
 
-Server code using Node.js
+Server code using Node.js (Use node 18.12.1)
 
 ## Steps
 
