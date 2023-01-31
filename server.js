@@ -5,8 +5,6 @@ import cors from "cors";
 
 import dbconfig from "./config/dbConfig.js";
 import users from "./routes/users.js";
-import product from "./routes/product.js";
-import category from "./routes/category.js";
 
 const app = express();
 // const routes=require('./routes/posts');
@@ -29,7 +27,4 @@ mongoose
   .catch((error) => console.log(error.message));
 
 app.use("/users", users);
-app.use("/products", product);
-app.use("/categories", category);
-
 //close 
